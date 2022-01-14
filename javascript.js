@@ -24,5 +24,5 @@ function getComputerSelection(){
     computerPlay()
 }
 function getWinner(player, computer){
-    
+
 }
