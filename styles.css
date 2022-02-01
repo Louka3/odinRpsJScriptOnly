@@ -1,0 +1,36 @@
+/* #main{
+    display:flex;
+} */
+/* body{
+    background-color: lightgray;
+} */
+button{
+    background-color: white;
+    box-shadow: 0 1px #999;
+}
+button:active{
+    
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+#button-container{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    border: 4px solid gray;
+    height: 50px;
+    width: 250px;
+    
+}
+#rock{
+    border: 2px solid orange;
+} 
+#paper{
+    border: 2px solid red;
+}
+#scissors{
+    border: 2px solid rgb(172, 47, 255);
+}
+#new-game{
+    border: 2px solid green;
+}
