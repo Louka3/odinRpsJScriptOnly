@@ -76,4 +76,5 @@ function playGame(){
     }
     return ("The player chose " + player + ".\nThe computer chose " +
     computer + ".\nThe " + winner + " is the winner!")
+    //end
 }
