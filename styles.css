@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(122, 122, 122);
 }
 button{
     background-color: white;
@@ -21,6 +22,7 @@ button:active{
     transform: translateY(1px);
 }
 #display{
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
