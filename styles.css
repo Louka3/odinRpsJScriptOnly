@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(141, 146, 148);
 }
 button{
     background-color: white;
@@ -21,15 +21,7 @@ button:active{
     box-shadow: 0 1px #666;
     transform: translateY(1px);
 }
-#display{
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 500px;
-    /*border: 4px solid gray;*/
-}
+
 #button-container{
     display: flex;  
     justify-content: center;  
@@ -48,7 +40,26 @@ button:active{
 #scissors{
     border: 2px solid rgb(172, 47, 255);
 }
-#new-game{
+/* #new-game{
     border: 2px solid green;
     width: 120px;
+} */
+#display{
+    white-space: pre;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    /*border: 4px solid gray;*/
+}
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 15px;
+    font-family: sans-serif;
 }
